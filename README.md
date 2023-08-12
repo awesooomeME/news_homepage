@@ -29,7 +29,7 @@ Users should be able to:
 ![Screenshot](screenshot.png)
 ### Links
 
-- Solution URL: [Solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL here](https://github.com/awesooomeME/news_homepage)
 - Live Site URL: [Live site URL here](https://your-live-site-url.com)
 
 ## My process

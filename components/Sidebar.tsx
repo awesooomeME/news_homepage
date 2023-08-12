@@ -42,7 +42,7 @@ const Sidebar = () => {
             quickLinks.map((quickLink: any) => 
                 <Link href={quickLink.link} className={`hover:text-soft_red 
                     ${showSidebar ? 'translate-x-0 visible' : 'translate-x-full hidden'}
-                    desktop:translate-x-0 desktop:block`}>
+                    desktop:translate-x-0 desktop:block`} key={quickLink.title}>
                         {quickLink.title}
                 </Link> )
         }

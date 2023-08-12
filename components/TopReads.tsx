@@ -21,7 +21,7 @@ const TopReads = () => {
   }]
   return (
     <div className='grid gap-4 mt-6 desktop:col-span-3 desktop:grid-cols-3'>
-        {reads.map((read: any, index: number) => <TopTile spot={index+1} {...read}/>)}
+        {reads.map((read: any, index: number) => <TopTile key={read.title} spot={index+1} {...read}/>)}
     </div>
   )
 }
